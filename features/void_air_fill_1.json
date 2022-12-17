@@ -2,7 +2,7 @@
   "format_version": "1.13.0",
   "minecraft:scatter_feature": {
     "description": {
-      "identifier": "void:void_air_2"
+      "identifier": "void:void_air_fill_1"
     },
     "places_feature": "void:void_air",
     "iterations": "320*256",

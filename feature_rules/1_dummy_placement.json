@@ -2,14 +2,15 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "void:air_placement_a",
-      "places_feature": "void:void_air_2"
+      "identifier": "1_dummy_placement",
+      "places_feature": "minecraft:dirt_feature"
     },
     "conditions": {
       "placement_pass": "final_pass",
       "minecraft:biome_filter": [
         {
-          "test": "has_biome_tag", "operator": "!=", "value": "the_end"
+          "test": "has_biome_tag", "operator": "!=", "value": "the_end",
+	  "test": "has_biome_tag", "operator": "!=", "value": "nether"
         }
       ]
     },    
@@ -17,7 +18,7 @@
       "iterations": 1,
       "x": 0,
       "z": 0,
-      "y": -64
+      "y": -5000
     }
   }
 }
